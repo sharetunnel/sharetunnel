@@ -7,15 +7,10 @@
     "type": "git",
     "url": "git://github.com/sharetunnel/sharetunnel.git"
   },
-  "author": "Roman Shtylman <shtylman@gmail.com>",
-  "contributors": [
-    "Roman Shtylman <shtylman@gmail.com>",
-    "Gert Hengeveld <gert@hichroma.com>",
-    "Tom Coleman <tom@hichroma.com>"
-  ],
+  "author": "Rekas <aure369@gmail.com>",
   "main": "./sharetunnel.js",
   "bin": {
-    "lt": "./bin/lt.js"
+    "lt": "./bin/st.js"
   },
   "scripts": {
     "test": "mocha --ui qunit --reporter list --timeout 60000 -- *.spec.js"

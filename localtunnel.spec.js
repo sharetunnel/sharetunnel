@@ -44,7 +44,7 @@ test('query sharetunnel server w/ ident', async done => {
     });
 
     res.on('end', () => {
-      assert(/.*[.]sharetunnel[.]me/.test(body), body);
+      assert(/.*[.]sharetunnel[.]work/.test(body), body);
       tunnel.close();
       done();
     });
