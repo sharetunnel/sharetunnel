@@ -8,7 +8,7 @@ const sharetunnel = require('../sharetunnel');
 const { version } = require('../package');
 
 const { argv } = yargs
-  .usage('Usage: lt --port [num] <options>')
+  .usage('Usage: st --port [num] <options>')
   .env(true)
   .option('p', {
     alias: 'port',

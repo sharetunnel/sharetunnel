@@ -26,19 +26,19 @@ yarn add sharetunnel
 
 ## CLI usage
 
-When sharetunnel is installed globally, just use the `lt` command to start the tunnel.
+When sharetunnel is installed globally, just use the `st` command to start the tunnel.
 
 ```
-lt --port 8000
+st --port 8000
 ```
 
 Thats it! It will connect to the tunnel server, setup the tunnel, and tell you what url to use for your testing. This url will remain active for the duration of your session; so feel free to share it with others for happy fun time!
 
-You can restart your local server all you want, `lt` is smart enough to detect this and reconnect once it is back.
+You can restart your local server all you want, `st` is smart enough to detect this and reconnect once it is back.
 
 ### Arguments
 
-Below are some common arguments. See `lt --help` for additional arguments
+Below are some common arguments. See `st --help` for additional arguments
 
 - `--subdomain` request a named subdomain on the sharetunnel server (default is random characters)
 - `--local-host` proxy to a hostname other than localhost
@@ -46,7 +46,7 @@ Below are some common arguments. See `lt --help` for additional arguments
 You may also specify arguments via env variables. E.x.
 
 ```
-PORT=3000 lt
+PORT=3000 st
 ```
 
 ## API

@@ -1,7 +1,7 @@
 {
   "name": "sharetunnel",
   "description": "Expose localhost to the world",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -10,7 +10,7 @@
   "author": "Rekas <aure369@gmail.com>",
   "main": "./sharetunnel.js",
   "bin": {
-    "lt": "./bin/st.js"
+    "st": "./bin/st.js"
   },
   "scripts": {
     "test": "mocha --ui qunit --reporter list --timeout 60000 -- *.spec.js"
