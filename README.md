@@ -1,5 +1,7 @@
 # sharetunnel
 
+[![Build Status](https://travis-ci.com/sharetunnel/sharetunnel.svg?branch=master)](https://travis-ci.com/sharetunnel/sharetunnel)
+
 sharetunnel exposes your localhost to the world for easy testing and sharing! No need to mess with DNS or deploy just to have others test out your changes.
 
 Great for working with browser testing tools like browserling or external api callback services like twilio which require a public url for callbacks.
@@ -110,10 +112,6 @@ Clients in other languages
 _go_ [gotunnelme](https://github.com/NoahShen/gotunnelme)
 
 _go_ [go-sharetunnel](https://github.com/sharetunnel/go-sharetunnel)
-
-## server
-
-See [sharetunnel/server](//github.com/sharetunnel/server) for details on the server that powers sharetunnel.
 
 ## License
 
